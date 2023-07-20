@@ -20,7 +20,7 @@ public class postman {
                 .then()
                 .statusCode(200)
 
-                .body("data", equalTo("CreditContractNumbe"))
+                .body("data", equalTo("CreditContractNumber"))
 
         ;
 
